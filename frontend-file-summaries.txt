@@ -1,0 +1,10 @@
+{
+  "frontend/src/App.tsx": "Main application component with authentication check, layout structure, and conditional rendering of settings panel and 3D visualization based on login status.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching and mutating quadcopter settings including PID parameters, throttle, camera toggles, and failsafe configuration with proper error handling and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Navigation header with branding, connection status indicator, and login/logout functionality using Internet Identity.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice, caffeine.ai attribution link, and hardware component list.",
+  "frontend/src/components/SettingsPanel.tsx": "Comprehensive settings interface with tabbed navigation for PID tuning, general configuration (throttle/cameras), and safety features with real-time form state management.",
+  "frontend/src/components/QuadcopterVisualization.tsx": "Interactive 3D quadcopter model using React Three Fiber with animated rotation, realistic drone structure including motors, propellers, and LED indicators.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring blue/tech-themed color palette optimized for both light and dark modes with enhanced contrast and modern design tokens.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color system, custom border radius, and animation utilities matching the tech/drone aesthetic."
+}
